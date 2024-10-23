@@ -1,0 +1,73 @@
+/* From Uiverse.io by SteveBloX */
+
+body {
+    font-family: Outfit, sans-serif;
+    background-color: #D5E1EF;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding-top: 100px;
+    padding-bottom: 5px;
+}
+
+img {
+    width: 100%;
+    /* Ajuste la largeur à 100% du conteneur */
+    height: 100%;
+    /* Ajuste la hauteur à 100% du conteneur */
+    object-fit: contain;
+    border: 0px;
+    border-radius: 17px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    background: white;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    place-items: center;
+    /* Centre à la fois horizontalement et verticalement */
+    height: 65vh;
+    user-select: none;
+    font-weight: none;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.card-content {
+    padding-top: -10px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    place-items: center;
+    margin-bottom: 10px;
+}
+
+/*.card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
